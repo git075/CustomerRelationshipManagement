@@ -5,7 +5,7 @@ import java.util.List;
 import com.CustomerRelationshipManagement.Entity.Customer;
 
 public interface CustomerService {
-
+	
 	String insertCustomer(Customer customer);
 	List<Customer> getCustomer();
 	Customer getCustomerById(int id);
